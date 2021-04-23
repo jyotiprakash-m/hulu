@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "export": "next build && next export",
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run export",
     "start": "next start"
   },
   "dependencies": {
